@@ -1,0 +1,64 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.roll{
+	background-color: DodgerBlue;
+	line-height: 45px;
+	width: 10%;
+	text-align: center;
+	border-radius: 7px;
+  	position: absolute;
+  	top: 60%;
+  	left: 45%;
+  	margin-top: 50px;
+}
+a{
+
+	text-decoration: none;
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+}
+#result img{
+	position: absolute;
+	top: 25%;
+	left:40%;
+	width:20%;
+}
+#result span{
+	position: absolute;
+	top: 55%;
+	left: 47%;
+	margin-top: 50px;
+}
+.loder{
+	margin-top: 50px;
+}
+@media only screen and (max-width: 600px){
+	.roll{
+	position: absolute;
+	top: 80%;
+	left: 40%;
+	margin-top: 10px;
+	width: 20%;
+}
+.loder{
+	margin-top: 70px;
+}
+#result span{
+	position: absolute;
+	top: 40%;
+	left: 40%;
+}
+#result .img1{
+	position: absolute;
+	top: 35%;
+	left:25%;
+	width:50%;
+}
+}
+
